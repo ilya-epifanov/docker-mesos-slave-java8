@@ -1,4 +1,4 @@
-FROM mesosphere/mesos-slave:0.22.1-1.0.ubuntu1404
+FROM mesosphere/mesos-slave:0.23.0-1.0.ubuntu1404
 
 ADD vivid.list /etc/apt/sources.list.d/vivid.list
 ADD vivid-preferences /etc/apt/preferences.d/vivid-preferences
